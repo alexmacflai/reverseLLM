@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct Reverse_LLMApp: App {
+struct HumanLLMApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark)
         }
     }
 }

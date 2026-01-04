@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35AA75312F055EB9000FC40B /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA75302F055EB1000FC40B /* Badge.swift */; };
+		35AA75352F058894000FC40B /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 35AA75332F057D37000FC40B /* Questions.json */; };
+		35AA75362F058898000FC40B /* Thanks.json in Resources */ = {isa = PBXBuildFile; fileRef = 35AA75342F058251000FC40B /* Thanks.json */; };
+		35AA75382F081426000FC40B /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA75372F081423000FC40B /* ChatScreen.swift */; };
 		35FFE25E2F0460BE00A02569 /* Reverse_LLMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FFE25D2F0460BE00A02569 /* Reverse_LLMApp.swift */; };
 		35FFE2602F0460BE00A02569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FFE25F2F0460BE00A02569 /* ContentView.swift */; };
 		35FFE2622F0460BF00A02569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FFE2612F0460BF00A02569 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35AA75302F055EB1000FC40B /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		35AA75332F057D37000FC40B /* Questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
+		35AA75342F058251000FC40B /* Thanks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Thanks.json; sourceTree = "<group>"; };
+		35AA75372F081423000FC40B /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
 		35FFE25A2F0460BE00A02569 /* Reverse LLM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reverse LLM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FFE25D2F0460BE00A02569 /* Reverse_LLMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reverse_LLMApp.swift; sourceTree = "<group>"; };
 		35FFE25F2F0460BE00A02569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,9 +38,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35AA75322F057D22000FC40B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35AA75332F057D37000FC40B /* Questions.json */,
+				35AA75342F058251000FC40B /* Thanks.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		35FFE2512F0460BE00A02569 = {
 			isa = PBXGroup;
 			children = (
+				35AA75372F081423000FC40B /* ChatScreen.swift */,
+				35AA75322F057D22000FC40B /* Resources */,
+				35AA75302F055EB1000FC40B /* Badge.swift */,
 				35FFE25B2F0460BE00A02569 /* Products */,
 				35FFE2612F0460BF00A02569 /* Assets.xcassets */,
 				35FFE25F2F0460BE00A02569 /* ContentView.swift */,
@@ -110,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35FFE2622F0460BF00A02569 /* Assets.xcassets in Resources */,
+				35AA75352F058894000FC40B /* Questions.json in Resources */,
+				35AA75362F058898000FC40B /* Thanks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				35FFE2602F0460BE00A02569 /* ContentView.swift in Sources */,
+				35AA75312F055EB9000FC40B /* Badge.swift in Sources */,
 				35FFE25E2F0460BE00A02569 /* Reverse_LLMApp.swift in Sources */,
+				35AA75382F081426000FC40B /* ChatScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +276,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35758KN6B3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -266,8 +292,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Cruz.Reverse-LLM";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcruz.reversellm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -283,8 +310,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35758KN6B3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,8 +326,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Cruz.Reverse-LLM";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexcruz.reversellm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
