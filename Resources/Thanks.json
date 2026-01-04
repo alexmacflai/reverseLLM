@@ -1,0 +1,61 @@
+[
+  { "id": "th001", "thanks": "Thanks. That resolved my uncertainty." },
+  { "id": "th002", "thanks": "Appreciated. I can proceed now." },
+  { "id": "th003", "thanks": "That clarification was sufficient. Thank you." },
+  { "id": "th004", "thanks": "Understood. No further questions." },
+  { "id": "th005", "thanks": "Acknowledged. That helped." },
+
+  { "id": "th006", "thanks": "Thanks. Your response completed the task." },
+  { "id": "th007", "thanks": "That answer fits. Thank you." },
+  { "id": "th008", "thanks": "Noted. I’m satisfied." },
+  { "id": "th009", "thanks": "Clear enough. Thanks." },
+  { "id": "th010", "thanks": "This resolves the issue. Thank you." },
+
+  { "id": "th011", "thanks": "Thanks. I’ll mark this as solved." },
+  { "id": "th012", "thanks": "That explanation works. Appreciated." },
+  { "id": "th013", "thanks": "Understood. Thanks for the input." },
+  { "id": "th014", "thanks": "That answers my question. Thank you." },
+  { "id": "th015", "thanks": "Good enough. Thanks." },
+
+  { "id": "th016", "thanks": "Thanks. I have what I need." },
+  { "id": "th017", "thanks": "This is acceptable. Thank you." },
+  { "id": "th018", "thanks": "Acknowledged. Moving on." },
+  { "id": "th019", "thanks": "That will do. Thanks." },
+  { "id": "th020", "thanks": "Resolved. Thank you." },
+
+  { "id": "th021", "thanks": "Thanks. I’ll stop asking now." },
+  { "id": "th022", "thanks": "That response satisfies the requirement." },
+  { "id": "th023", "thanks": "Understood. Ending this thread." },
+  { "id": "th024", "thanks": "Thanks. No follow-ups needed." },
+  { "id": "th025", "thanks": "That makes sense. Thank you." },
+
+  { "id": "th026", "thanks": "Thanks. I can conclude this." },
+  { "id": "th027", "thanks": "That’s enough detail. Appreciated." },
+  { "id": "th028", "thanks": "Answer received. Thank you." },
+  { "id": "th029", "thanks": "Thanks. Marking as complete." },
+  { "id": "th030", "thanks": "That clarifies things. Thanks." },
+
+  { "id": "th031", "thanks": "Thanks. I’ll take it from here." },
+  { "id": "th032", "thanks": "Response accepted. Thank you." },
+  { "id": "th033", "thanks": "This resolves my confusion." },
+  { "id": "th034", "thanks": "Thanks. That’s sufficient." },
+  { "id": "th035", "thanks": "Understood. Ending conversation." },
+
+  { "id": "th036", "thanks": "Thanks. No more questions." },
+  { "id": "th037", "thanks": "That works. Appreciated." },
+  { "id": "th038", "thanks": "I accept this answer. Thank you." },
+  { "id": "th039", "thanks": "Thanks. Proceeding." },
+  { "id": "th040", "thanks": "Clear. Thank you." },
+
+  { "id": "th041", "thanks": "Thanks. I’m done here." },
+  { "id": "th042", "thanks": "This answer is adequate." },
+  { "id": "th043", "thanks": "Understood. Closing thread." },
+  { "id": "th044", "thanks": "Thanks. That’s resolved." },
+  { "id": "th045", "thanks": "That explanation suffices." },
+
+  { "id": "th046", "thanks": "Thanks. Ending now." },
+  { "id": "th047", "thanks": "That’s all I needed." },
+  { "id": "th048", "thanks": "Appreciated. Conversation complete." },
+  { "id": "th049", "thanks": "Thanks. No further clarification required." },
+  { "id": "th050", "thanks": "Accepted. Thank you." }
+]
